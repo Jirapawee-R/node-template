@@ -3,9 +3,9 @@ on:
   workflow_call:
     inputs:
       node-version:
-      required: true
-      type: string
-      description: 'The Nodejs version to use for the build'
+        required: true
+        type: string
+        description: 'The Nodejs version to use for the build'
 
 jobs:
   build:
